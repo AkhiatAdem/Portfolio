@@ -13,7 +13,7 @@ export default function Skills() {
                     <div>
                         <h3 className="text-xl font-semibold text-green-500">Languages</h3>
                         <p className="text-md sm:text-lg text-gray-300">
-                            JavaScript,`` C++, HTML, CSS
+                            JavaScript, C++, HTML, CSS
                         </p>
                     </div>
                     <div>

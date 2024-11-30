@@ -54,12 +54,12 @@ export default function Window(props) {
     return (
         <div
             ref={windowRef}
-            className="absolute rounded-md bg-[#252525] shadow-lg overflow-y-auto border w-[90vw] md:w-[60vw]"
+            className="absolute rounded-md bg-[#252525] shadow-lg overflow-y-auto border w-[100vw] h-[100vh] md:h-[450px] md:w-[60vw]"
             style={{
                 left: `${position.x}px`,
                 top: `${position.y}px`,
                 
-                height: "450px",
+
                 zIndex: `${onTop == props.title ? '50' : '1'}`,
 
             }}
